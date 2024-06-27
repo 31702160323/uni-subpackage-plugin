@@ -1,0 +1,112 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"componentPlaceholder": {
+					"async-echart": "view"
+				},
+				"mp-alipay": {
+					"componentPlaceholder": {
+						"async-echart": "view"
+					}
+				}
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "sub-pages",
+			"pages": [{
+				"path": "calendars/calendars",
+				"style": {
+					"navigationBarTitleText": "calendars"
+				}
+			}]
+		},
+		{
+			"root": "sub-pagesB",
+			"pages": [{
+				"path": "calendars/calendars",
+				"style": {
+					"navigationBarTitleText": "calendars",
+					"componentPlaceholder": {
+						"async-echart": "view"
+					},
+					"mp-alipay": {
+						"componentPlaceholder": {
+							"async-echart": "view"
+						}
+					}
+				}
+			}]
+		},
+		{
+			"root": "TUIKit",
+			"pages": [{
+					"path": "components/TUIConversation/index",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM"
+					}
+				},
+				{
+					"path": "components/TUIChat/index",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM"
+					}
+				},
+				// 集成 chat 组件，必须配置该路径: 视频播放
+				{
+					"path": "components/TUIChat/video-play",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM"
+					}
+				},
+				{
+					"path": "components/TUIChat/web-view",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM"
+					}
+				},
+				{
+					"path": "components/TUIContact/index",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM"
+					}
+				},
+				{
+					"path": "components/TUIGroup/index",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM"
+					}
+				},
+				{
+					"path": "components/TUISearch/index",
+					"style": {
+						"navigationBarTitleText": "聊天记录"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uv-(.*)": "@climblee/uv-ui/components/uv-$1/uv-$1.vue",
+			"^tn-(.*)-(item|group)$": "@tuniao/tnui-vue3-uniapp/components/$1/src/$1-$2.vue",
+			"^Tn(.*)(Item|Group)$": "@tuniao/tnui-vue3-uniapp/components/$1/src/$1-$2.vue",
+			"^(tn-graphic-card|TnGraphicCard)": "tnuiv3p-tn-graphic-card/index.vue",
+			"^tn-(.*)": "@tuniao/tnui-vue3-uniapp/components/$1/src/$1.vue",
+			"^TnDateTimePicker": "@tuniao/tnui-vue3-uniapp/components/date-time-picker/src/date-time-picker.vue",
+			"^Tn(.*)": "@tuniao/tnui-vue3-uniapp/components/$1/src/$1.vue"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+**/.hbuilderx
+**/unpackage
+**/node_modules
+**/dist
+**/subpackage-plugin-cli
+**/stats.html
