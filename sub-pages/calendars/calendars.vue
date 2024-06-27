@@ -24,9 +24,9 @@ export default {
 		};
     },
     mounted() {
-        import('@/sub-pagesB/utils/day.js').then((dayjs) => {
-            this.time = dayjs().format('YYYY-MM-DD');
-        });
+        // import('@/sub-pagesB/utils/day.js').then((dayjs) => {
+        //     this.time = dayjs().format('YYYY-MM-DD');
+        // });
     },
     methods: {
     }
