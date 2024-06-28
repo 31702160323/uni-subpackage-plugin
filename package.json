@@ -1,13 +1,23 @@
 {
+	"name": "uni-subpackage-plugin",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
 	"dependencies": {
 		"@tencentcloud/chat-uikit-uniapp": "^2.2.2",
-        "@tuniao/tn-icon": "^1.9.0",
-        "@tuniao/tn-style": "^1.0.19",
-        "@tuniao/tnui-vue3-uniapp": "^1.0.20",
-        "dayjs": "^1.11.11",
+		"@tuniao/tn-icon": "^1.9.0",
+		"@tuniao/tn-style": "^1.0.19",
+		"@tuniao/tnui-vue3-uniapp": "^1.0.20",
+		"dayjs": "^1.11.11",
 		"echarts": "^5.5.0",
-        "pinyin-pro": "^3.21.0",
-        "tnuiv3p-tn-graphic-card": "^1.0.15",
+		"pinyin-pro": "^3.21.0",
+		"tnuiv3p-tn-graphic-card": "^1.0.15",
 		"tslib": "^2.6.2",
 		"zrender": "^5.5.0"
 	},
