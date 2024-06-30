@@ -174,6 +174,7 @@ export default {
 </script>
 
 <style lang="scss">
+	@import '@tuniao/tn-style/dist/uniapp/index.css';
 .swiper-container {
     width: 100%;
     height: 420rpx;

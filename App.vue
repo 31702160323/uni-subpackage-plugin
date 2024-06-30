@@ -27,15 +27,9 @@
 
 <style>
 	/*每个页面公共css */
-	@import '@tuniao/tn-style/dist/uniapp/index.css';
-
-	/* common css for page */
-	uni-page-body,
-	html,
-	body,
-	page {
-		width: 100% !important;
-		height: 100% !important;
-		overflow: hidden;
+	uni-page-body,html,body,page {
+	  width: 100% !important;
+	  height: 100% !important;
+	  overflow: auto;
 	}
 </style>

@@ -4,4 +4,4 @@ import 'dayjs/locale/zh-cn';
 dayjs.extend(relativeTime);
 dayjs.locale('zh-cn');
 
-export default dayjs;
+export { dayjs };
