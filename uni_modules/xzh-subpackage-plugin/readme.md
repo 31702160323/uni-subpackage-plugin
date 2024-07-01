@@ -4,6 +4,15 @@
 
 详情请下载示例项目
 
+### 示例项目的效果
+
+| 分包模式\包名      | pages     | sub-pages | sub-pagesB | TUIKit    |
+| ------------------ | --------- | --------- | ---------- | --------- |
+| 不使用插件，开发版 | 3593.6 KB | 82.1 KB   | 83.5 KB    | 1313.3 KB |
+| 不使用插件，正式版 | 1959.9 KB | 72,4 KB   | 69,7 KB    | 743.3 KB  |
+| 使用插件，开发版   | 969.5 KB  | 98.8 KB   | 1413.2 KB  | 2594.8 KB |
+| 使用插件，正式版   | 481.0 KB  | 82.1 KB   | 605.9 KB   | 1679.0 KB |
+
 ### 使用方式：
 
 创建 vite.config.js。参考地址[uni-app 官网 (dcloud.net.cn)](https://uniapp.dcloud.net.cn/collocation/vite-config.html)

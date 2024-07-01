@@ -43,9 +43,7 @@
 			};
 		},
 		mounted() {
-			console.log('-------dayjs');
 			import('@/sub-pagesB/utils/day.js').then(({dayjs}) => {
-				console.log('dayjs', dayjs);
 				this.time = dayjs().format('YYYY-MM-DD');
 			});
 		},

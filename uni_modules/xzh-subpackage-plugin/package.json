@@ -1,7 +1,7 @@
 {
   "id": "xzh-subpackage-plugin",
   "displayName": "xzh-subpackage-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "小程序分包",
   "keywords": [
     "node_modules分包"
