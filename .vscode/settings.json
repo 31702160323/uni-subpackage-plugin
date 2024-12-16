@@ -1,0 +1,60 @@
+{
+    // 每次保存的时候将代码按格式进行修复
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.stylelint": "explicit"
+    },
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "stylelint.enable": true,
+    "stylelint.validate": ["css", "less", "postcss", "scss", "vue"],
+
+    "prettier.trailingComma": "none",
+    "prettier.printWidth": 100,
+    "prettier.tabWidth": 4,
+    "prettier.semi": true,
+    "prettier.singleQuote": true,
+    "prettier.endOfLine": "auto",
+
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "vite.config.*": "vite.config.*.ts, vite.config.*.js, vite.config.*.json, vite.config.*.html, *.html",
+        "tsconfig.json": "tsconfig.*.json, .gitignore, README.md",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, .npmrc",
+        ".eslintrc.js": "eslint.config.js, .eslintignore, .eslintrc.json, .eslintrc.yaml, .eslintrc.yml, .eslintrc, .eslintignore, .prettierrc",
+        "stylelint.config.*": "stylelint.config.json, .stylelintrc, .stylelintignore, .stylelint, stylelint.config.yaml, stylelint.config.yml"
+    },
+
+    // 在使用搜索功能时，将这些文件夹/文件排除在外
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/target": true,
+        "**/logs": true,
+        "**/dist": true
+    },
+    // 这些文件将不会显示在工作空间中
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.js": {
+            "when": "$(basename).ts" //ts编译后生成的js文件将不会显示在工作空中
+        },
+        "**/node_modules": false
+    },
+    "files.associations": {
+        "pages.json": "jsonc",
+        "manifest.json": "jsonc"
+    },
+    "vue.codeActions.enabled": false
+}

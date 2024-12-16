@@ -1,0 +1,12 @@
+**/*.js
+**/*.ts
+**/dist
+**/node_modules
+**/index.html
+**/*.md
+**/*.json
+**/*.png
+**/*.eot
+**/*.ttf
+**/*.woff
+**/*.css
